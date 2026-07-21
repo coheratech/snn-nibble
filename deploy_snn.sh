@@ -34,7 +34,7 @@ cp "$HW_H" host/xiris_snn_hw.h
 $SSH ubuntu@zynqmp "mkdir -p ~/snn"
 $SCP $BIT.bit.bin host/snn_host.c host/snn_config.h host/iris_model.h host/xiris_snn_hw.h  ubuntu@zynqmp:~/snn/
 $SSH ubuntu@zynqmp "set -e; cd ~/snn
-  gcc -O2 -I. -o snn_host snn_host.c
+  gcc -O2 -I. -o snn_host snn_host.c -lm
   sudo fpgautil -b $BIT.bit.bin
   sleep 1
   sudo busybox devmem 0xFF5E00C0 32 $DIVVAL
