@@ -1,0 +1,17 @@
+ip_iris_*/
+*_prj*/
+*.log
+*.bit
+*.bit.bin
+*.hwh
+*.bif
+*_boot.bin
+.Xil/
+vivado*.jou
+host/xiris_*_hw.h
+tb/*_tb
+tb/*_tb_v2
+tb/*_dbg
+tb/*_variant
+tb/*_diag
+__pycache__/
