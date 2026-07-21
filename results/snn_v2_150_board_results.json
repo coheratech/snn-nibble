@@ -1,0 +1,11 @@
+{
+ "variant": "v2",
+ "clk_mhz": 150,
+ "T": 128,
+ "cs": "0xea6d8757",
+ "acc": 147,
+ "us_per_inf": 0.4949,
+ "inf_per_s": 2020472.0,
+ "weights_thresholds_loaded_at_runtime": true,
+ "pass": true
+}

@@ -1,0 +1,5 @@
+infer0 cs=0xea6d8757 acc=147/150 MATCH
+infer1 cs=0xea6d8757 acc=147/150 MATCH
+infer2 cs=0xea6d8757 acc=147/150 MATCH
+TIMING reps=26933 dt=1.9995s  0.495 us/inf  2.020e+06 inf/s MATCH
+SNN_PASS
